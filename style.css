@@ -1,0 +1,33 @@
+/* Two things to identify to use CSS */
+/* ONE: What are we affecting */
+/* We are going to affect an h1 tag */
+/* TWO: What are we doing to it? */
+/* We are turning the h1 text color to green */
+h1 {
+    /* Within these curly braces are all the changes I will apply to this h1 */
+    /* I want to change the font color */
+    color:rgb(49, 82, 44);  /* Hover mouse over the color box to be able to change the hue of this green */
+    text-align: center;
+    font-size: 50px;
+}
+p {
+    background-color: aquamarine;
+}
+/* Use period for classes and # for ids */
+/* Classes can be repeatedly used */
+/* Id used for only one element */
+.nogreen {
+    background-color: rgb(233, 219, 219);
+}
+
+#mytable {
+    background-color: orange;
+}
+
+.data {
+    background-color: aqua;
+}
+
+.italics {
+    font-style: italic;
+}
